@@ -14,12 +14,11 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
 
-    String st1,st2,st3,x1,x2;
+    String st1,st2,st3;
     TextView t1,t2;
     EditText ed1,ed2,ed3;
     float a,b,c;
     double ans1,ans2;
-    //boolean isR=false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
             t1.setText("x1:"+ans1);
             t2.setText("x1:"+ans2);
         }
-
     }
 
     public void pitaron(View view) {

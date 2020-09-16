@@ -16,7 +16,6 @@ public class pitaron extends AppCompatActivity {
     WebView wV;
     TextView t1,t2;
     String aS, bS, cS, url;
-    //Intent mi;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
